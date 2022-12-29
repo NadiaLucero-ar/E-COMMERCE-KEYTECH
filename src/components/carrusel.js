@@ -1,50 +1,32 @@
-
-import Carousel from 'react-bootstrap/Carousel';
 import '../styles/carouselStyle.css';
-import imagen from '../imagenes/oferta8.jpg';
+import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function  Carrusel() {
-  return (
-    <Carousel className='carousel'>
-        <Carousel.Item className='carouselItem'>
-          <img
-            className="d-block w-100"
-            src= {imagen}
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className='carouselItem'>
-          <img
-            className="d-block w-100"
-            src="./public/imagenes/Armado-De-PC-Gamer.png"
-            alt="Second slide"
-          />
+import ImagenesCarrusel from '../data/imagenesCarrusel.js';
 
-        <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className='carouselItem'>
-          <img
-            className="d-block w-100"
-            src="./public/imagnes/computadoras a tu medida.png"
-            alt="Third slide"
-          />
+const Carrusel = () => {
+    return (
+        <Carousel className='carrusel' style={{zIndex:"900"}}>
 
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-    </Carousel>
-  )
-}
+            {ImagenesCarrusel.map((ImagenesCarrusel) => {return(
+                <Carousel.Item >
+                              
+                        <img style={{height:"345px"}}
+                          className="d-block w-100"
+                          src={ImagenesCarrusel.imagen}
+                          alt="First slide"
+                        />
 
+                        <Carousel.Caption>
+                          <h3>First slide label</h3>
+                          <p>{ImagenesCarrusel.descripcion}</p>
+                        </Carousel.Caption>
+
+                </Carousel.Item>
+                
+                
+            )})}
+        </Carousel>
+    )
+  }
 export default Carrusel;
