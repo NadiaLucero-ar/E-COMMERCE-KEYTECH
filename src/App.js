@@ -1,25 +1,15 @@
-import React from "react";
-import Footer from "./components/Footer/Footer";
-
-
-
+//import React from "react";
+import { GlobalStyles } from "./global-styles";
+import { FooterContainer } from "./containers/footer"
 
 
 function App() {
   return (
-    <div className="App">
-      
-      
-      
-      
-      
-      <footer/>
-    </div>
-  )
+    <>
+      <GlobalStyles />
+      <FooterContainer />
+    </>
+  );
 }
-
-
-
-
 
 export default App;
