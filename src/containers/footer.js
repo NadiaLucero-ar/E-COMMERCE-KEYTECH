@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../components/footer/";
 import Icon from "../components/icons";
 
+
 export function FooterContainer() {
     return(
         <Footer>
@@ -33,16 +34,19 @@ export function FooterContainer() {
 
                     <Footer.Column>
                         <Footer.Title><h3>seguinos en nuestra redes</h3></Footer.Title>
-                            <Footer.Link href="#" ><Icon className="fab fa-facebook-f" /></Footer.Link>
+                            <Footer.Link href="#" ><Icon className="fa-brands fa-square-facebook" /></Footer.Link>
                             <Footer.Link href="#"><Icon className="fab fa-youtube" /></Footer.Link>
                             <Footer.Link href="#"><Icon className="fab fa-instagram" /></Footer.Link>
                     </Footer.Column>
 
                     <Footer.Column>
-                        <Footer.Link href="#"><Icon className="fab fa-facebook-f" /></Footer.Link>
-                    </Footer.Column>
+                        <Footer.Link href="#"><Icon className="fa-solid fa-qrcode" /></Footer.Link>
+                    </Footer.Column> 
                 </Footer.Row>
             </Footer.Wrapper>
+            <Footer.Row>
+                <copyright>© keytech 2023 | Designed by keytech</copyright>
+            </Footer.Row>
         </Footer>
     )
 }
