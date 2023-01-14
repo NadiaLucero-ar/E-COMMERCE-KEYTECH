@@ -1,6 +1,6 @@
-
 import React, {useState} from 'react';
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+    // Importar NavDropDown en caso de utilizar el menú desplegable navDropdown
+import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from 'react-router-dom';
 import '../styles/header.css';
 import LOGO from '../imagenes/KeyTechTrademark.jpg'
@@ -15,9 +15,9 @@ const Header =() => {
 
          <Navbar className='navContainer' collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="#home">
-
-                <img src={LOGO} alt="LOGO" className='imagenLogo'/>
-                
+                <NavLink className='navlink' to="/">
+                     <img src={LOGO} alt="LOGO" className='imagenLogo'/>
+                </NavLink>   
 
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -25,7 +25,7 @@ const Header =() => {
                 <Nav className="mr-auto">
                 <Nav.Link href="#features">
                 
-                     <NavLink className='navlink' to="/">inicio</NavLink>
+                     <NavLink className='navlink' to="/productos">Productos</NavLink>
                 
                 </Nav.Link>
                 <Nav.Link href="#pricing">
@@ -38,9 +38,9 @@ const Header =() => {
                      <NavLink className='navlink' to="/nosotros">Nosotros</NavLink>
 
                 </Nav.Link>
-                <NavDropdown title="Productos" id="collasible-nav-dropdown">
+                {/* <NavDropdown title="Productos" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
                 </Nav>
                 <Nav>
 
