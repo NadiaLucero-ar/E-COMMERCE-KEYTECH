@@ -16,6 +16,7 @@ function App() {
         <Route path='*' element={<ErrorPage/>}/>
         <Route path='/productos' element={<Productos/>}/>
       </Routes>
+
       <Footer></Footer>
     </div>
   );
