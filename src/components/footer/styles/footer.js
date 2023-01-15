@@ -31,7 +31,6 @@ export const Column = styled.div`
           text-decoration: underline;
      }
      
-
 `    
 
 export const Row = styled.div`
