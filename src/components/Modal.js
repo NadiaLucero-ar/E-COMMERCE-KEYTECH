@@ -7,7 +7,7 @@ export default function Modal() {
         setState(!state)
 
     }
-  return (
+    return (
         <>
         {state ?
         <div className='overlay'>
