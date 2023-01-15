@@ -33,13 +33,6 @@ export default function Carrito() {
                     data={product} 
                     addToCart={addToCart}/>
                 )})}
-
-                {/* {products.map((product) => {return(
-                    <ProductItem 
-                    key={product.id} 
-                    data={product} 
-                    addToCart={addToCart}/>
-                )})} */}
             </article>
             <h3>Carrito</h3>
             <article style={{display:"flex"}}>
