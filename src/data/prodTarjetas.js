@@ -4,7 +4,7 @@ import airpods from "../imagenes/Auriculares-Xiaomi-Mi-True-Wireless-Earbuds-Bas
 import auriculartrgh from "../imagenes/Auriculares-T-Rgh101-Mckinley-T-Dagger.jpg";
 import auricularQbh004 from "../imagenes/Auricular-Qbox-H004.jpg";
 import comboMouseYpad from "../imagenes/Combo-Mouse-y-Pad-Gamer-Redragon-M601wl-Ba.jpg";
-import comboTecladoYMouse from "../imagenes/Combo-Teclado-y-Mouse-Genius-Smart-Km-8200.jpg";
+import comboTecladoYMouse from "../imagenes/Combo-Teclado-y-Mouse-Genius-Smart-Km-8200.jpg"
 import kitTeclasRosas from "../imagenes/Kit-Teclas-(Keycaps)-Redragon-A130p-Sp-Scarab-Rosas-Español.jpg";
 import kitTeclasVerdes from "../imagenes/Kit-Teclas-(Keycaps)-azer-Set-Green-English.jpg";
 import mouseTrust from "../imagenes/Mouse-Gaming-Trust-Ziva.jpg";
@@ -25,7 +25,7 @@ export const productoTarjeta = [
     {
         id:1,
         nombre:"Red dragon H901",
-        precio:4900,
+        precio: 4900,
         descripcion:"Auricular con microfono Redragon-H901-Scylla-Ps4-Pc",
         imagen: auricularcmic,
         palabraClave:['auricular','red dragon', 4900]
@@ -33,7 +33,7 @@ export const productoTarjeta = [
     {
         id:2,
         nombre:"Qbox h039",
-        precio:6500,
+        precio: 6500,
         descripcion:"Auricular Qbox-Gamer-H039",
         imagen: auricularQbox,
         palabraClave:['auricular','Qbox', 6500]
@@ -41,7 +41,7 @@ export const productoTarjeta = [
     {
         id:3,
         nombre:"Xiaomi wireless",
-        precio:5500,
+        precio: 5500,
         descripcion:"Auriculares-Xiaomi-Mi-True-Wireless-Earbuds-Basic-2-4200",
         imagen: airpods,
         palabraClave:['auricular','Xiaomi', 5500]
@@ -49,7 +49,7 @@ export const productoTarjeta = [
      {
         id:4,
         nombre:"Trgh t-dagger",
-        precio:7000,
+        precio: 7000,
         descripcion:"Auriculares-T-Rgh101-Mckinley-T-Dagger",
         imagen: auriculartrgh,
         palabraClave:['auricular','Trgh', 7000]
@@ -57,7 +57,7 @@ export const productoTarjeta = [
     {
         id:5,
         nombre:"Qbox H004",
-        precio:7000,
+        precio: 7000,
         descripcion:"Auricular Qbox-H004",
         imagen: auricularQbh004,
         palabraClave:['auricular','Qbox', 7000]
@@ -65,7 +65,7 @@ export const productoTarjeta = [
     {
         id:6,
         nombre:"Redragon m601WL",
-        precio:4000,
+        precio: 4000,
         descripcion:"mouse y pad redragon",
         imagen: comboMouseYpad,
         palabraClave:['Mouse','Redragon', 4000]
@@ -73,7 +73,7 @@ export const productoTarjeta = [
     {
         id:7,
         nombre:"teclado y Mouse Genius",
-        precio:9000,
+        precio: 9000,
         descripcion:"Teclado y auricular genius smart KM 8200",
         imagen: comboTecladoYMouse,
         palabraClave:['Teclado','Mouse','Genius', 9000]
@@ -81,7 +81,7 @@ export const productoTarjeta = [
     {
         id:8,
         nombre:"Redragon A130p",
-        precio:6500,
+        precio: 6500,
         descripcion:"kit de teclas Redragon A130p Scarab Rosas- Español",
         imagen: kitTeclasRosas,
         palabraClave:['teclas','Redragon', 6500]

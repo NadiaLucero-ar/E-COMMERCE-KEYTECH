@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Card({elnombredelproducto, preciodelproducto,descripciondelproducto,imagendelproducto}) {
   return (
-    <div class="card border-light bg-dark mb-3" style={{maxWidth:"18rem",color:"#aaa"}}>
+    <div class="card border-light bg-dark " style={{width:"300px",color:"#aaa"}}>
       <div class="card-header">{elnombredelproducto}</div>
       <div class="card-body">
         <img src={imagendelproducto} alt={descripciondelproducto}/>
