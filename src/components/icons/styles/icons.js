@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
 export const Icon = styled.i`
-    font-size: 34px;
-    margin-rigth: 16px;
+    font-size: 52px;
+    margin-left: 100px;
 `
