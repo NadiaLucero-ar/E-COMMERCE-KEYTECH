@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 
 
@@ -29,8 +29,7 @@ export const Column = styled.div`
      }
      h3{
           text-decoration: underline;
-     }
-     
+
 `    
 
 export const Row = styled.div`

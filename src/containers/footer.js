@@ -1,8 +1,9 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
 import Footer from "../components/footer/";
 import Icon from "../components/icons";
-
+import Facebook from "../assets/img/Facebook.png";
+import Discord from "../assets/img/Discord.png";
+import Instagram from "../assets/img/Instagram.jpg";
 
 
 
@@ -41,9 +42,9 @@ export function FooterContainer() {
 
                     <Footer.Column>
                         <Footer.Title><h3>seguinos en nuestra redes</h3></Footer.Title>
-                            <Footer.Link href="http://www.facebook.com" target="_blank"><Icon className="fa-brands fa-facebook"/></Footer.Link>
-                            <Footer.Link href="http://www.discord.com" target="_blank"><Icon className="fa-brands fa-discord" /></Footer.Link>
-                            <Footer.Link href="http://instagram.com" target="_blank"><Icon className="fa-brands fa-instagram" /></Footer.Link>
+                            <a href="http://www.facebook.com" target="_blanck" rel="noreferrer"><img src={Facebook} alt="" width="40" height="40"></img></a>
+                            <a href="http://www.discord.com" target="_blanck" rel="noreferrer"><img src={Discord} alt=""></img></a>
+                            <a href="http://instagram.com" target="_blanck" rel="noreferrer"><img src={Instagram} alt=""></img></a>
                     </Footer.Column>
 
                     <Footer.Column>
