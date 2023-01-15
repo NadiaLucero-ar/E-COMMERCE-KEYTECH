@@ -1,5 +1,5 @@
 import styled from "styled-components"
-//import { hover } from "@testing-library/user-event/dist/hover"
+
 
 
 export const Container = styled.div`
@@ -29,6 +29,7 @@ export const Column = styled.div`
      h3{
           text-decoration: underline;
      }
+     
 
 `    
 
@@ -39,6 +40,18 @@ export const Row = styled.div`
 
      @media (max-width: 1000px) {
           grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+     }
+
+
+
+     copyright{
+          bacground-color: var(--dark-bg);
+          display: flex;
+          justify-content: center;
+          color: #ffffff;
+          text-align: center;
+          padding: 1rem 0;
+          margin-top: 1rem;
      }
 `    
 
@@ -64,4 +77,5 @@ export const Title = styled.p`
     text-transform: uppercase;
     font-weight: bold;
 `  
+
 
