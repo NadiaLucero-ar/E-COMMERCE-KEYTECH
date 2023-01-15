@@ -3,6 +3,8 @@ import { GlobalStyles } from "./global-styles";
 import { FooterContainer } from "./containers/footer"
 
 
+
+
 function App() {
   return (
     <>

@@ -3,6 +3,10 @@ import Footer from "../components/footer/";
 import Icon from "../components/icons";
 
 
+
+
+
+
 export function FooterContainer() {
     return(
         <Footer>
@@ -23,24 +27,24 @@ export function FooterContainer() {
                     <Footer.Column>
                         <Footer.Title><h4>lo más buscado</h4></Footer.Title>
                             <ul>
-                                <li><Footer.Link href="#" >placas de video nvidia</Footer.Link></li>
-                                <li><Footer.Link href="#">placas de video amd</Footer.Link></li>
-                                <li><Footer.Link href="#">gabinetes</Footer.Link></li>
-                                <li><Footer.Link href="#">monitores</Footer.Link></li>
-                                <li><Footer.Link href="#">teclado mecanico</Footer.Link></li>
-                                <li><Footer.Link href="#">mouse gamer</Footer.Link></li>
+                                <li><Footer.Link href="#" target="_blank">placas de video nvidia</Footer.Link></li>
+                                <li><Footer.Link href="#" target="_blank">placas de video amd</Footer.Link></li>
+                                <li><Footer.Link href="#" target="_blank">gabinetes</Footer.Link></li>
+                                <li><Footer.Link href="#" target="_blank">monitores</Footer.Link></li>
+                                <li><Footer.Link href="#" target="_blank">teclado mecanico</Footer.Link></li>
+                                <li><Footer.Link href="#" target="_blank">mouse gamer</Footer.Link></li>
                             </ul>
                     </Footer.Column>
 
                     <Footer.Column>
                         <Footer.Title><h3>seguinos en nuestra redes</h3></Footer.Title>
-                            <Footer.Link href="#" ><Icon className="fa-brands fa-square-facebook" /></Footer.Link>
-                            <Footer.Link href="#"><Icon className="fab fa-youtube" /></Footer.Link>
-                            <Footer.Link href="#"><Icon className="fab fa-instagram" /></Footer.Link>
+                            <Footer.Link href="#" target="_blank"><Icon className="fa-brands fa-facebook" /></Footer.Link>
+                            <Footer.Link href="#" target="_blank"><Icon className="fa-brands fa-discord" /></Footer.Link>
+                            <Footer.Link href="#" target="_blank"><Icon className="fa-brands fa-instagram" /></Footer.Link>
                     </Footer.Column>
 
                     <Footer.Column>
-                        <Footer.Link href="#"><Icon className="fa-solid fa-qrcode" /></Footer.Link>
+                        <Footer.Link href="#" target="_blank"><Icon className="fa-solid fa-qrcode" /></Footer.Link>
                     </Footer.Column> 
                 </Footer.Row>
             </Footer.Wrapper>

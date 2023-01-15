@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 
 
+
 export const Container = styled.div`
      padding: 10px 10px;
      background: #000000;
@@ -67,6 +68,17 @@ export const Link = styled.a`
           color: #ff7c99;
           transition: 400ms ease-in;
     }
+
+    button{
+     min-width: 150px;
+     display: flex;
+     justify-content: center;
+     background-color: color: #ff7c99;
+     border: solid 1px olive;
+     padding: 1rem;
+    }
+     
+   
 `
     
 
@@ -79,3 +91,5 @@ export const Title = styled.p`
 `  
 
 
+     
+    
