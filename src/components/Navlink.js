@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Inicio from "./pages/Inicio"
+import Home from "./pages/Home";
 import Ayuda from "./pages/Ayuda";
 import AcercaDe from "./pages/Acerca-de";
 import Comunidad from "./pages/Comunidad";
@@ -18,20 +18,20 @@ const Navlink = () => {
   return (
     <Router>
         <Switch>
-            <Route exact path="/" component={Inicio}/>
-            <Route exact path="/ayuda" component={Ayuda}/>
-            <Route exact path="acerca de" component={AcercaDe}/>
-            <Route exact path="comunidad" component={Comunidad}/>
-            <Route exact path="contacto" component={Contacto}/>
-            <Route exact path="gabinetes" component={Gabinetes}/>
-            <Route exact path="informacion util" component={InformacionUtil}/>
-            <Route exact path="mi cuenta" component={MiCuenta}/>
-            <Route exact path="monitores" component={Monitores}/>
-            <Route exact path="placas amd" component={PlacasAmd}/>
-            <Route exact path="placas nvidia" component={PlacasNvidia}/>
-            <Route exact path="teclado mecanico" component={TecladoMecanico}/>
-            <Route exact path="mouse gamer" component={MouseGamer}/>
-            <Route exact path="*" component={Error404}/>
+            <Route exact path="/" element={<Home/>}/>
+            <Route exact path="/ayuda" element={<Ayuda/>}/>
+            <Route exact path="/acerca de" element={<AcercaDe/>}/>
+            <Route exact path="/comunidad" element={<Comunidad/>}/>
+            <Route exact path="/contacto" element={<Contacto/>}/>
+            <Route exact path="/gabinetes" element={<Gabinetes/>}/>
+            <Route exact path="/informacion util" element={<InformacionUtil/>}/>
+            <Route exact path="/mi cuenta" element={<MiCuenta/>}/>
+            <Route exact path="/monitores" element={<Monitores/>}/>
+            <Route exact path="/placas amd" element={<PlacasAmd/>}/>
+            <Route exact path="/placas nvidia" element={<PlacasNvidia/>}/>
+            <Route exact path="/teclado mecanico" element={<TecladoMecanico/>}/>
+            <Route exact path="/mouse gamer" element={<MouseGamer/>}/>
+            <Route exact path="*" element={<Error404/>}/>
         </Switch>
     </Router>
   )

@@ -29,6 +29,11 @@ export const Column = styled.div`
      }
      h3{
           text-decoration: underline;
+     cogigo-qr{
+          display: flex;
+     flex-direction: column;
+     justify-content: center;
+     }
 
 `    
 
