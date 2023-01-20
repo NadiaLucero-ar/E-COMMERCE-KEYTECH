@@ -1,13 +1,20 @@
 import Carrusel from '../components/carrusel';
 import Patrocinadores from '../components/Patrocinadores';
+import ProductosInicio from '../components/ProductosInicio';
+import '../styles/inicio.css';
+import Modal from '../components/Modal';
+import Carrito from '../components/Carrito';
 
 export default function Inicio() {
   return (
-    <div>
+    <div className='contenedorInicio'>
 
-        <Carrusel></Carrusel>
-    
-        <Patrocinadores></Patrocinadores>
+        <Carrusel/>
+        <ProductosInicio/>
+        <Patrocinadores/>
+        <Carrito/>
+
+        <Modal/>
     </div>
   )
 }

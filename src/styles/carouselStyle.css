@@ -1,10 +1,12 @@
-.carousel{
-    width:900px;
-    height: 400px;
-    background-color: blueviolet;
-};
 
-.carouselItem{
-    height: 500px;
-    width: 500px;
+.carrusel{
+    width: 100%;
+    z-index: 700 !important;
+}
+
+@media (min-width:1100px) {
+    .carrusel{
+        height: 500px;
+        width: 100%;
+    }
 };

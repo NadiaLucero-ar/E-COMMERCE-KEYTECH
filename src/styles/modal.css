@@ -1,0 +1,9 @@
+.overlay{
+    position: absolute;
+    top:500;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background: rgba(186, 36, 223, 0.455);
+    z-index: 999;
+};

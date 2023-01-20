@@ -6,19 +6,18 @@ import ImagenesCarrusel from '../data/imagenesCarrusel.js';
 
 const Carrusel = () => {
     return (
-        <Carousel className='carrusel' style={{zIndex:"900"}}>
+        <Carousel className='carrusel'>
 
             {ImagenesCarrusel.map((ImagenesCarrusel) => {return(
                 <Carousel.Item >
                               
-                        <img style={{height:"345px"}}
+                        <img style={{width:"500px",          height:"700px"}}
                           className="d-block w-100"
                           src={ImagenesCarrusel.imagen}
                           alt="First slide"
                         />
 
                         <Carousel.Caption>
-                          <h3>First slide label</h3>
                           <p>{ImagenesCarrusel.descripcion}</p>
                         </Carousel.Caption>
 
