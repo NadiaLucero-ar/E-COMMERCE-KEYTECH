@@ -5,7 +5,6 @@ import Facebook from "../assets/img/Facebook.png";
 import Discord from "../assets/img/Discord.png";
 import Instagram from "../assets/img/Instagram.png";
 import Ayuda from "../components/pages/Ayuda";
-import Home from "../components/pages/Home";
 import AcercaDe from "../components/pages/Acerca-de";
 import MiCuenta from "../components/pages/Mi-cuenta";
 import InformacionUtil from "../components/pages/Informacion-util";
@@ -21,6 +20,7 @@ import MouseGamer from "../components/pages/Mouse-gamer";
 
 
 
+
 export function FooterContainer() {
     return(
         <Footer>
@@ -29,8 +29,8 @@ export function FooterContainer() {
                     <Footer.Column>
                         <Footer.Title></Footer.Title>
                                 <ul>
-                                    <Footer.Link href="/" src={<Home/>}></Footer.Link>
-                                    <li><Footer.Link href="/ayuda" target="_blank" rel="noreferrer" src={<Ayuda/>}><p>ayuda</p></Footer.Link></li>
+                                    
+                                    <li><Footer.Link href="/ayuda" target="_blanck" rel="noreferrer" src={<Ayuda/>}><p>Ayuda</p></Footer.Link></li>
                                     <li><Footer.Link href="/acerca de" target="_blank" src={<AcercaDe/>}><p>acerca de</p></Footer.Link></li>
                                     <li><Footer.Link href="/mi cuenta" target="_blank" src={<MiCuenta/>}><p>mi cuenta</p></Footer.Link></li>
                                     <li><Footer.Link href="/informacion util" target="_blank" src={<InformacionUtil/>}><p>información útil</p></Footer.Link></li>
@@ -67,7 +67,7 @@ export function FooterContainer() {
 
                     <Footer.Column>
                     <div className="codigo-qr">
-                        <Footer.Link href={<Home/>} target="_blank" rel="noreferrer"><img src={Qr} alt="" width="92" height="92"></img></Footer.Link>
+                        <Footer.Link href="" target="_blank" rel="noreferrer"><img src={Qr} alt="" width="92" height="92"></img></Footer.Link>
                     </div>
                     </Footer.Column> 
                 </Footer.Row>

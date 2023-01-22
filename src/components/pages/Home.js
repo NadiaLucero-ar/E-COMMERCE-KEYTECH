@@ -1,11 +1,11 @@
 
 
-const Inicio = () => {
+const Home = () => {
   return (
     <div>
-        <h1>Inicio</h1>
+        <h1>Home</h1>
     </div>
   )
 }
 
-export default Inicio
+export default Home

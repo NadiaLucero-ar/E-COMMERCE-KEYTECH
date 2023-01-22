@@ -1,9 +1,10 @@
 
 
+
 const Ayuda = () => {
   return (
     <>
-        <h1>Ayuda</h1>
+        <h1>Ayudas</h1>
     </>
   )
 }
