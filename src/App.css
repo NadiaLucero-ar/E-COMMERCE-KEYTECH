@@ -3,6 +3,7 @@
     margin: 0;
 }
 .contenedorTotalDeLaPagina{
+    overflow-x: hidden;
     width: 100%;
     background: linear-gradient(to top,rgba(73, 34, 80, 0.87),rgba(74, 22, 104, 0.712),rgb(51, 35, 53));
     display: flex;

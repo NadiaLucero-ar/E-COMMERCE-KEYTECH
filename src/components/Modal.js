@@ -1,18 +1,18 @@
-import React,{useState} from 'react';
+import React from 'react';
 import '../styles/modal.css';
+import Carrito from './Carrito';
 
-export default function Modal() {
-    const [state, setState]= useState(true);
-    function changeState () {
-        setState(!state)
+export default function Modal({stateModal,setStateModal,key}) {
+    let state = stateModal;
 
-    }
     return (
         <>
         {state ?
         <div className='overlay'>
-            <h1>verdadero</h1>
-            <button type="" onClick={()=>changeState()}>cerrar</button>
+            <div className='modalBody'>
+            <Carrito key={key}/>
+            <button type="" onClick={()=>setStateModal()}>cerrar</button>
+            </div>
         </div>
         : 
         null}

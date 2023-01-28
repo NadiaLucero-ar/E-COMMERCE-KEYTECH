@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
-import { productoTarjeta } from '../data/prodTarjetas';
+// import { productoTarjeta } from '../data/prodTarjetas';
+import { shoppingInitialState } from './Reducer/ShoppingReducer';
 import '../styles/productosInicio.css';
 
 
@@ -9,7 +10,7 @@ export default function ProductosInicio() {
     <div className='contenedor'>
         <h2>Ofertas</h2>
         <section className='contenedorProductosInicio'>
-                {productoTarjeta.filter((data) => data.precio <= 9000).map((data) => {return(
+                {shoppingInitialState.products.filter((data) => data.precio <= 9000).map((data) => {return(
                   <section className='contenedorCard'>
                   <Card
                                     key={data.id}
