@@ -8,3 +8,19 @@ height: 140px;
 .headerContainer{
 width: 100%;
 }
+
+.iconoCarrito{
+   position: absolute;
+   top: 100px;
+   right: 50px;
+}
+.iconoCarrito:hover{
+   color: yellow;
+   box-shadow: 1px 0px 5px rgb(246, 190, 78);
+}
+.iconoUser{
+   position: absolute;
+   top: 50px;
+   right: 50px;
+
+}

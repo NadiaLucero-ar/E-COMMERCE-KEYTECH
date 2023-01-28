@@ -1,0 +1,29 @@
+.contenedor{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.contenedor h2 {
+    background: linear-gradient(to right, rgba(122, 77, 158, 0.795),rgba(213, 223, 80, 0.815));
+    text-shadow: 3px 3px 10px rgba(160, 54, 54, 0.849);
+    letter-spacing: 5px;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: cursive;
+}
+.contenedorProductosInicio{
+    margin-top: 50px;
+    width: 80%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+    margin-left: 15%;
+};
+
+.contenedorCard{
+    width: 80%;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+};
